@@ -1,0 +1,115 @@
+/* import the Bootstrap */
+@import '~bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* ------- customize primary button color -------- */
+$newOrange: #E55934;
+
+body {
+  font-family: 'Kanit', sans-serif !important;
+}
+
+.btn-primary {
+  @include button-variant(
+    $newOrange, 
+    darken($newOrange, 7.5%), 
+    rgb(245, 245, 245), 
+    lighten($newOrange, 5%), 
+    lighten($newOrange, 10%), 
+    darken($newOrange, 30%));
+}
+
+.btn-outline-primary {
+  @include button-outline-variant(
+    $newOrange, 
+    #222222, 
+    lighten($newOrange, 5%), 
+    $newOrange);
+}
+
+.menu-card {
+  background: rgba(255, 255, 255, 0.90);
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 576px;
+  max-width: 95%;
+  margin: 0.25rem auto
+}
+
+.food-details {
+  text-align: left;
+  padding: 1rem;
+  height: 200px;
+  width: 50%;
+  h4 {
+    margin: 0;
+  }
+  .star {
+    color: goldenrod;
+  }
+}
+
+.menu-delete{
+  font-size: 4vh;
+  border:#ddd 1px solid;
+  justify-content: center;
+  margin: 0.25rem 0 10rem 0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.menu-delete-icon{
+  transition: all 0.2s;
+  cursor: pointer;
+  margin: auto;
+}
+
+.menu-delete-icon:hover{
+  background-color: rgb(0, 0, 0, 0.3);
+  border-radius: 100px;
+}
+
+.food-image {
+  display: inline-block;
+  overflow: hidden;
+  width: 200px;
+  max-width: 40%;
+  img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+}
+
+.menu-card-can-delete{
+  justify-content: center;
+}
+
+.border-red {
+  border: 1px solid #E55934;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+#image {
+  display: block;
+  
+  /* This rule is very important, please don't ignore this */
+  max-width: 100%;
+}
+
+.c-width {
+  width: 50%;
+  border: 2px solid black
+}
+
+.nav{
+  --bs-nav-link-color: black;
+  
+}
+

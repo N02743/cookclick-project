@@ -1,0 +1,394 @@
+.menupage {
+  height: auto;
+  max-width: 50%;
+  margin: auto;
+  padding: 1% 3% 1% 3%;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  border-radius: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .menupage {
+    max-width: 90%;
+  }
+}
+
+.menu-img {
+  width: 100%;
+  height: auto;
+  margin: 5% 0 2% 0;
+  background-color: rgb(38, 38, 38);
+  border-radius: 10px;
+}
+
+.menu-img > img {
+  max-width: 90%;
+  width: auto;
+  max-height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-desc {
+  width: 100%;
+  height: auto;
+  margin: 2% 0 2% 0;
+  padding: 2%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border: none !important;
+  font-size: 110%;
+  border-radius: 10px;
+}
+
+.menu-ing-list {
+  width: 100%;
+  height: auto;
+  margin: 1% 0 1% 0;
+  padding: 2.5%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+  /* border: black solid 1px; */
+}
+
+.menu-ing-item {
+  display: flex;
+  flex: 1 0 100%;
+  font-size: 110%;
+  border-radius: 10px;
+}
+
+.menu-ing-item-right {
+  margin-left: 7%;
+  width: 70%;
+  height: auto;
+}
+
+.menu-ing-item-left {
+  width: 30%;
+  height: auto;
+  text-align: center;
+}
+
+.menu-steps-list {
+  width: 100%;
+  height: auto;
+  margin: 2% 0 2% 0;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+.menu-steps-head {
+  width: 100%;
+  height: auto;
+  margin: 2% auto 2% auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 2.5%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.menu-steps-item {
+  height: auto;
+  font-size: 2.2vh;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin: 2% auto 2% auto;
+  padding: 5%;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+}
+
+.menu-steps-item-img > img {
+  object-fit: cover;
+  max-width: 80%;
+  max-height: 100%;
+  width: 250px;
+  float: right;
+}
+
+.menu-steps-item-img {
+  flex-grow: 1;
+}
+.menu-steps-item-desc {
+  margin-top: 2%;
+  height: auto;
+  max-width: 50%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-steps-index {
+  background-color: rgba(0, 0, 0, 0.16);
+  width: 4em;
+  height: 1.7em;
+  flex: 0 0 auto;
+  font-weight: bold;
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+.menu-comments-list {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.menu-rating-bar {
+  display: flex;
+  flex: space-evenly;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 0.5rem 0;
+  height: auto;
+  border-radius: 10px;
+  font-size: 110%;
+  text-align: center;
+}
+
+.menu-rating-rate {
+  flex-grow: 1;
+  border-right: rgba(0, 0, 0, 0.16) solid 1px;
+  max-width: 30%;
+}
+
+.menu-rating-comment {
+  flex-grow: 1;
+  border-right: rgba(0, 0, 0, 0.16) solid 1px;
+}
+
+.menu-rating-fav {
+  flex-grow: 1;
+  max-width: 30%;
+}
+.menu-rating-star {
+  color: none;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-star {
+  cursor: pointer;
+  color: rgb(250, 217, 71);
+}
+
+.comment-box-button-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.comment-box-button {
+  padding: 6px;
+  margin: 0 1% 0 1%;
+  background-color: white;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+.menu-comments-list {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+}
+
+.comment-box-button:hover {
+  background-color: rgba(0, 0, 0, 0.16);
+}
+
+.menu-comment-username {
+  width: 50%;
+  font-size: 80%;
+  display: flex;
+}
+
+.delete-icon {
+  margin-right: 6px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.delete-icon:hover {
+  background-color: rgba(0, 0, 0, 0.16);
+  border-radius: 50%;
+}
+
+.report-icon {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.report-icon:hover {
+  background-color: rgba(0, 0, 0, 0.16);
+  border-radius: 50%;
+}
+
+.report-form-modal {
+  border: rgb(0, 0, 0, 0.16) 1px solid;
+  border-radius: 10px;
+  font-size: 70%;
+  width: 80%;
+}
+
+.menu-report-menu {
+  font-size: 140%;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.menu-report-menu:hover {
+  background-color: rgba(0, 0, 0, 0.16);
+  border-radius: 50%;
+}
+
+.do-this-menu-button {
+  height: 10vh;
+  width: 20vw;
+  background-color: white;
+  border: rgb(0, 0, 0, 0.16) 1px solid;
+  border-radius: 10px;
+  transition: all 0.2s;
+  margin: 2% 0 2% 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.do-this-menu-button:hover {
+  background-color: rgb(0, 0, 0, 0.16);
+  border: rgb(0, 0, 0, 0.16) 1px solid;
+  border-radius: 10px;
+}
+
+.menu-do-this-menu {
+  width: 100%;
+  height: auto;
+  margin: 1% 0 1% 0;
+  padding: 2.5%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-cooking {
+  width: 100%;
+  height: auto;
+  padding: 2.5%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+
+.menu-cooking-text {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Amatic SC";
+  font-size: 6vh;
+  color: #333;
+  opacity: 0.75;
+  animation: pulse 3.5s linear infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1, 1);
+    opacity: 0.25;
+  }
+  50% {
+    transform: scale(1.2, 1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0.25;
+  }
+}
+
+@keyframes flip {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  5% {
+    transform: rotate(-27deg);
+  }
+
+  30%,
+  50% {
+    transform: rotate(0deg);
+  }
+
+  55% {
+    transform: rotate(27deg);
+  }
+
+  83.3% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.cooking-modal-text {
+  margin-top: 0;
+  font-size: 0.5em;
+}
+
+.menu-ing-modal {
+  border-top: rgb(0, 0, 0, 0.16) solid 1px;
+}
+
+.preview-change-text {
+  font-size: 0.6em;
+}
+
+.menu-do-this {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.do-this-mw {
+  max-width: 30%;
+  border-radius: 20px;
+}
+
+.missing-ingredient{
+  display: flex;
+  flex-direction: column;
+}
+
+.missing-ingredient-text{
+  font-size: 1.7vh;
+  color:rgba(203, 40, 40)
+}
+
+.missing-ingredient-text2{
+  color:rgba(203, 40, 40)
+}
+
+.green {
+  color:rgb(24, 189, 60)
+}
+
+.amount-in-ref{
+  color:rgb(162, 149, 149)
+}
