@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/cookclick-project/static/css/main.aaa9873b.css",
+    "main.js": "/cookclick-project/static/js/main.26147695.js",
+    "static/js/787.cda612ba.chunk.js": "/cookclick-project/static/js/787.cda612ba.chunk.js",
+    "static/media/Fall-Ingredient-Cover-Photo.gif": "/cookclick-project/static/media/Fall-Ingredient-Cover-Photo.f0587d5387bae6bb8e9e.gif",
+    "static/media/menupic.png": "/cookclick-project/static/media/menupic.135a9a0ce5c555f89354.png",
+    "static/media/logo2.svg": "/cookclick-project/static/media/logo2.fed8c1c5c836a3cbb12989d601533f08.svg",
+    "static/media/Adpic.jpg": "/cookclick-project/static/media/Adpic.6ecd69a03e56c8b2b2d3.jpg",
+    "static/media/logonobg.svg": "/cookclick-project/static/media/logonobg.1859cfd68e544fc632463901ec4d5fa1.svg",
+    "static/media/toppagepic.png": "/cookclick-project/static/media/toppagepic.59a270fe57d14c6578e2.png",
+    "index.html": "/cookclick-project/index.html",
+    "main.aaa9873b.css.map": "/cookclick-project/static/css/main.aaa9873b.css.map",
+    "main.26147695.js.map": "/cookclick-project/static/js/main.26147695.js.map",
+    "787.cda612ba.chunk.js.map": "/cookclick-project/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aaa9873b.css",
+    "static/js/main.26147695.js"
+  ]
+}
