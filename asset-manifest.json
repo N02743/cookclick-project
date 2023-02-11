@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cookclick-project/static/css/main.aaa9873b.css",
-    "main.js": "/cookclick-project/static/js/main.26147695.js",
+    "main.js": "/cookclick-project/static/js/main.acfd5570.js",
     "static/js/787.cda612ba.chunk.js": "/cookclick-project/static/js/787.cda612ba.chunk.js",
     "static/media/Fall-Ingredient-Cover-Photo.gif": "/cookclick-project/static/media/Fall-Ingredient-Cover-Photo.f0587d5387bae6bb8e9e.gif",
     "static/media/menupic.png": "/cookclick-project/static/media/menupic.135a9a0ce5c555f89354.png",
@@ -11,11 +11,11 @@
     "static/media/toppagepic.png": "/cookclick-project/static/media/toppagepic.59a270fe57d14c6578e2.png",
     "index.html": "/cookclick-project/index.html",
     "main.aaa9873b.css.map": "/cookclick-project/static/css/main.aaa9873b.css.map",
-    "main.26147695.js.map": "/cookclick-project/static/js/main.26147695.js.map",
+    "main.acfd5570.js.map": "/cookclick-project/static/js/main.acfd5570.js.map",
     "787.cda612ba.chunk.js.map": "/cookclick-project/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aaa9873b.css",
-    "static/js/main.26147695.js"
+    "static/js/main.acfd5570.js"
   ]
 }
